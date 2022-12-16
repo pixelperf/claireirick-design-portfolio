@@ -1,0 +1,104 @@
+/* This is to be used with illustration.html
+  Author: Claire Irick */
+
+body{
+  background-color: white;
+}
+
+/* ------- Navigation Bar --------  */
+nav{
+  list-style-image: none;
+  background: white;
+  padding-top: 5%;
+}
+
+nav ul li{
+  list-style-type: none;
+  float: right;
+  font-size: 16px;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: "brandon grotesque light", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 15px;
+  margin: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+}
+
+nav ul li a:visited{
+  color: black;
+}
+
+nav ul li a:hover{
+  color: #92D6E3;
+}
+
+nav ul li a:active{
+  color: #92D6E3;
+}
+
+nav hr{
+  color: #F1F1F1;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/*  --------- PAGE CONTENT -----------  */
+h1{
+    color: black;
+    font-family: beloved-sans,sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+section a{
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-bottom: 20%;
+}
+
+/* ---------Footer-----------*/
+footer ul li{
+  float: left;
+  list-style-type: none;
+  font-size: 15px;
+  padding-bottom: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+footer ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: beloved-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  margin: 20px;
+}
+
+footer ul li a:visited{
+  color: black;
+}
+
+footer ul li a:hover{
+  color: #92D6E3;
+}
+
+footer hr{
+  color: #F1F1F1;
+  padding-right: 5%;
+  padding-left: 5%;
+}
